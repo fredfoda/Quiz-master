@@ -1,0 +1,16 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  margin:0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #3E2F5B;
+}
+
+*{
+  font-family: "Verdana", cursive, sans-serif;
+  color: #FFF;
+}
