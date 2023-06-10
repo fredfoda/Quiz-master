@@ -3,18 +3,20 @@ export const Perguntas =[
     pergunta: 'Quais são os três predadores do reino animal reconhecidos pela habilidade de caçar em grupo, se camuflar para surpreender as presas e possuir sentidos apurados, respectivamente:',
     opcoesResposta:[
       {resposta: 'Orca, onça e tarântula', correta: false, alternativa: 'A)'},
-      {resposta: 'Tigre, gavião e orca', correta: false, alternativa: 'B)'},
+      {resposta: 'Hiena, urso branco e lobo cinzento', correta: true, alternativa: 'B)'},
       {resposta: 'Leão, tubarão branco e urso cinzento', correta: false, alternativa: 'C)'},
-      {resposta: 'Hiena, urso branco e lobo cinzento', correta: true, alternativa: 'D)'},
-    ]
+      {resposta: 'Tigre, gavião e orca', correta: false, alternativa: 'D)'},
+    ],
+    dica: 'Começa com a letra L'
   },
   {
     pergunta: 'Quanto tempo a luz do Sol demora para chegar à Terra?',
     opcoesResposta:[
       {resposta: ' 1 dia', correta: false, alternativa: 'A)'},
-      {resposta: '12 horas', correta: false, alternativa: 'B)'},
-      {resposta: '12 segundos', correta: false, alternativa: 'C)'},
-      {resposta: '8 minutos', correta: true, alternativa: 'D)'},
+      {resposta: '8 minutos', correta: true, alternativa: 'B)'},
+      {resposta: '12 horas', correta: false, alternativa: 'C)'},
+      {resposta: '12 segundos', correta: false, alternativa: 'D)'},
+      
     ]
   },
   {
@@ -22,8 +24,8 @@ export const Perguntas =[
     opcoesResposta:[
       {resposta: 'Independência do Brasil e Dia da Bandeira', correta: false, alternativa: 'A)'},
       {resposta: 'Black Friday e Dia da Árvore', correta: false, alternativa: 'B)'},
-      {resposta: 'Dia do Médico e Dia de São Lucas', correta: false, alternativa: 'C)'},
-      {resposta: 'Proclamação da República e Dia Nacional da Consciência Negra', correta: true, alternativa: 'D)'},
+      {resposta: 'Proclamação da República e Dia Nacional da Consciência Negra', correta: true, alternativa: 'C)'},
+      {resposta: 'Dia do Médico e Dia de São Lucas', correta: false, alternativa: 'D)'},
     ]
   },
   {
@@ -49,17 +51,18 @@ export const Perguntas =[
     opcoesResposta:[
       {resposta: 'Legenda', correta: false, alternativa: 'A)'},
       {resposta: 'História', correta: false, alternativa: 'B)'},
-      {resposta: 'Legendário', correta: false, alternativa: 'C)'},
-      {resposta: 'Lenda', correta: true, alternativa: 'D)'},
+      {resposta: 'Lenda', correta: true, alternativa: 'C)'},
+      {resposta: 'Legendário', correta: false, alternativa: 'D)'},
     ]
   },
   {
     pergunta: 'Quais os países que têm a maior e a menor expectativa de vida do mundo?',
     opcoesResposta:[
-      {resposta: 'Japão e Serra Leoa', correta: false, alternativa: 'A)'},
-      {resposta: 'Itália e Chade', correta: false, alternativa: 'B)'},
-      {resposta: 'Estados Unidos e Angola', correta: false, alternativa: 'C)'},
-      {resposta: 'Brasil e Congo', correta: true, alternativa: 'D)'},
+      {resposta: 'Brasil e Congo', correta: true, alternativa: 'A)'},
+      {resposta: 'Japão e Serra Leoa', correta: false, alternativa: 'B)'},
+      {resposta: 'Itália e Chade', correta: false, alternativa: 'C)'},
+      {resposta: 'Estados Unidos e Angola', correta: false, alternativa: 'D)'},
+      
     ]
   },
   {
@@ -74,10 +77,10 @@ export const Perguntas =[
   {
     pergunta: 'Qual o livro mais vendido no mundo a seguir à Bíblia?',
     opcoesResposta:[
-      {resposta: 'O Senhor dos Anéis', correta: false, alternativa: 'A)'},
-      {resposta: 'Um Conto de Duas Cidades', correta: false, alternativa: 'B)'},
-      {resposta: 'O Pequeno Príncipe', correta: false, alternativa: 'C)'},
-      {resposta: 'Dom Quixote', correta: true, alternativa: 'D)'},
+      {resposta: 'Dom Quixote', correta: true, alternativa: 'A)'},
+      {resposta: 'O Senhor dos Anéis', correta: false, alternativa: 'B)'},
+      {resposta: 'Um Conto de Duas Cidades', correta: false, alternativa: 'C)'},
+      {resposta: 'O Pequeno Príncipe', correta: false, alternativa: 'D)'},
     ]
   },
   {
@@ -94,17 +97,17 @@ export const Perguntas =[
     opcoesResposta:[
       {resposta: 'Janeiro', correta: false, alternativa: 'A)'},
       {resposta: 'Fevereiro', correta: false, alternativa: 'B)'},
-      {resposta: 'Junho', correta: false, alternativa: 'C)'},
-      {resposta: 'Michael Schumacher', correta: true, alternativa: 'D)'},
+      {resposta: 'Michael Schumacher', correta: true, alternativa: 'C)'},
+      {resposta: 'Junho', correta: false, alternativa: 'D)'},
     ]
   },
   {
     pergunta: ' De qual cidade vieram os Beatles?',
     opcoesResposta:[
-      {resposta: 'Janeiro', correta: false, alternativa: 'A)'},
-      {resposta: 'Fevereiro', correta: false, alternativa: 'B)'},
-      {resposta: 'Junho', correta: false, alternativa: 'C)'},
-      {resposta: 'Liverpool', correta: true, alternativa: 'D)'},
+      {resposta: 'Liverpool', correta: true, alternativa: 'A)'},
+      {resposta: 'Janeiro', correta: false, alternativa: 'B)'},
+      {resposta: 'Fevereiro', correta: false, alternativa: 'C)'},
+      {resposta: 'Junho', correta: false, alternativa: 'D)'},
     ]
   },
   {
@@ -112,17 +115,19 @@ export const Perguntas =[
     opcoesResposta:[
       {resposta: 'Romano', correta: false, alternativa: 'A)'},
       {resposta: 'Egípcio', correta: false, alternativa: 'B)'},
-      {resposta: 'Azteca', correta: false, alternativa: 'C)'},
-      {resposta: 'Inca', correta: true, alternativa: 'D)'},
+      {resposta: 'Inca', correta: true, alternativa: 'C)'},
+      {resposta: 'Azteca', correta: false, alternativa: 'D)'},
+
     ]
   },
   {
     pergunta: ' Quantos dias são necessários para a Terra orbitar o sol?',
     opcoesResposta:[
-      {resposta: 'Janeiro', correta: false, alternativa: 'A)'},
-      {resposta: 'Fevereiro', correta: false, alternativa: 'B)'},
-      {resposta: 'Junho', correta: false, alternativa: 'C)'},
-      {resposta: '365', correta: true, alternativa: 'D)'},
+      {resposta: '365', correta: true, alternativa: 'A)'},
+      {resposta: 'Janeiro', correta: false, alternativa: 'B)'},
+      {resposta: 'Fevereiro', correta: false, alternativa: 'C)'},
+      {resposta: 'Junho', correta: false, alternativa: 'D)'},
+      
     ]
   },
   {
